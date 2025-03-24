@@ -1,4 +1,6 @@
 --Corrected version of Apple HUB UI
+--Tested on Solara
+
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
