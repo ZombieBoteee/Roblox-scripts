@@ -122,10 +122,10 @@ local guestaim = false
 
 local function initialize()
     local GUI = Rayfield:CreateWindow({
-		Name = "Applesaken",
-		Theme = "Default",
+		Name = "Fartsaken",
+		Theme = "AmberGlow", --change theme here :) -- https://docs.sirius.menu/rayfield/configuration/themes - here is themes names
 		LoadingTitle = "Apple Ware",
-		LoadingSubtitle = "can fart hub please collab already",
+		LoadingSubtitle = "Fix by @ZombieBoteee",
 		Icon = "apple",
 		Link = "https://github.com/SilkScripts/AppleStuff/get out of here",
 
