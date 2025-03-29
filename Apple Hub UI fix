@@ -1644,6 +1644,7 @@ local function initialize()
     
     local function InfinitieYeld()
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+            Rayfield:Notify{Title = "Done!", Content = "If nothing happened, then the problem is in IY", Duration = 15}
     end
     
     
