@@ -1651,7 +1651,11 @@ local function initialize()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieBoteee/Roblox-scripts/refs/heads/main/Apple%20Hub%20UI%20fix"))()
         Rayfield:Notify{Title = "Sucsess!", Content = "Script reloaded!", Duration = 10}
     end
-    
+    local function ChangeTheme()
+	Rayfield:Notify{Title = "Theme", Content = "Read info in console(F9)", Duration = 15}
+	print("Download or copy this script at https://github.com/ZombieBoteee/Roblox-scripts/blob/main/Apple%20Hub%20UI%20fix and edit string 126 to change thmeme! More information commented in this string!")
+        
+    end
     
     Rayfield:Notify{Title = "Welcome!", Content = "Moder's github: @ZombieBoteee", Duration = 15}
     Rayfield:Notify{Title = "Welcome to Apple Ware", Content = "Feel free to post any bugs or suggestions in the server :)", Duration = 10, Image = "Apple"}
@@ -2044,11 +2048,16 @@ local function initialize()
         Restart()
         end,
      })
-    
+     local ChangeTheme = othertab:CreateButton({
+        Name = "Change theme",
+        Callback = function()
+        ChangeTheme()
+        end,
+     })
 end
 
 	
 
 initialize()
 
-print("!")
+print("Loaded!")
