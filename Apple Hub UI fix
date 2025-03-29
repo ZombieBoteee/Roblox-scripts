@@ -1642,11 +1642,13 @@ local function initialize()
             end
     end
     
+    local function InfinitieYeld()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
     
     
     
-    
-    Rayfield:Notify{Title = "JOIN THE DISCORD", Content = "plz https://discord.gg/fGFV3r9yKC", Duration = 60, Image = "clipboard"}
+    Rayfield:Notify{Title = "Welcome!", Content = "Moder's github: @ZombieBoteee", Duration = 15}
     Rayfield:Notify{Title = "Welcome to Apple Ware", Content = "Feel free to post any bugs or suggestions in the server :)", Duration = 10, Image = "Apple"}
    
     
@@ -1663,6 +1665,7 @@ local function initialize()
     
     local misctab = GUI:CreateTab("Misc", "meh")
     
+    local othertab = GUI:CreateTab("Other", "meh")
     
     local InstantSolveButton = gentab:CreateButton({
         Name = "Instant Solver Button",
@@ -2023,7 +2026,17 @@ local function initialize()
         bringbackjumppowerslider(value)
         end,
      })
+
+     local InfinitieYeld = othertab:CreateButton({
+        Name = "InfinitieYeld",
+        Callback = function()
+        InfinitieYeld()
+        end,
+     })
+
 end
+
+	
 
 initialize()
 
