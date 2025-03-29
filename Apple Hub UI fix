@@ -1646,7 +1646,11 @@ local function initialize()
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
             Rayfield:Notify{Title = "Done!", Content = "If nothing happened, then the problem is in IY", Duration = 15}
     end
-    
+    local function Restart()
+	    Rayfield:Notify{Title = "Wait", Content = "Please wait", Duration = 15}
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieBoteee/Roblox-scripts/refs/heads/main/Apple%20Hub%20UI%20fix"))()
+        Rayfield:Notify{Title = "Sucsess!", Content = "Script reloaded!", Duration = 10}
+    end
     
     
     Rayfield:Notify{Title = "Welcome!", Content = "Moder's github: @ZombieBoteee", Duration = 15}
@@ -2034,7 +2038,13 @@ local function initialize()
         InfinitieYeld()
         end,
      })
-
+     local restartScript = othertab:CreateButton({
+        Name = "Reload script",
+        Callback = function()
+        Restart()
+        end,
+     })
+    
 end
 
 	
