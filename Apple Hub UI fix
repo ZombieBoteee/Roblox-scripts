@@ -1867,7 +1867,7 @@ local function initialize()
 
      local Key = misctab:CreateKeybind({
         Name = "flip lol",
-        CurrentKeybind = "~",
+        CurrentKeybind = "*",
         HoldToInteract = false,
        
         Callback = function(Keybind)
