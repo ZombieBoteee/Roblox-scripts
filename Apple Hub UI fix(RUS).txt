@@ -1650,7 +1650,7 @@ local function initialize()
 	    Rayfield:Notify{Title = "Жди", Content = "Скрипт вот вот загрузится!", Duration = 15}
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieBoteee/Roblox-scripts/refs/heads/main/Apple%20Hub%20UI%20fix(RUS).txt"))()
         Rayfield:Notify{Title = "Готово!", Content = "Скрипт перезагружен!", Duration = 10}
-    end
+    end--почему_это_не_работает???
     local function ChangeTheme()
 	Rayfield:Notify{Title = "Theme", Content = "Read info in console(F9)", Duration = 15}
 	print("Скачай или скопируй скрипт в https://github.com/ZombieBoteee/Roblox-scripts/blob/main/Apple%20Hub%20UI%20fix и измени строку 126 для изменения темы! Больше информации на этойже строке!")
