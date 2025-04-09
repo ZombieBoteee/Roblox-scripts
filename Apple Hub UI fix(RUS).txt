@@ -1647,9 +1647,9 @@ local function initialize()
             Rayfield:Notify{Title = "Готово!", Content = "Если ничего не произошло, то проблема в чужом скрипте", Duration = 15}
     end
     local function Restart()
-	    Rayfield:Notify{Title = "Wait", Content = "Please wait", Duration = 15}
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieBoteee/Roblox-scripts/refs/heads/main/Apple%20Hub%20UI%20fix"))()
-        Rayfield:Notify{Title = "Готово!", Content = "Скрипт перезагружен!", Duration = 10}
+	    Rayfield:Notify{Title = "Жди", Content = "Жди пока твой интернет заугрузит скрипт снова", Duration = 15}
+        
+Rayfield:Notify{Title = "Готово!", Content = "Скрипт перезагружен!", Duration = 10}
     end
     local function ChangeTheme()
 	Rayfield:Notify{Title = "Theme", Content = "Read info in console(F9)", Duration = 15}
