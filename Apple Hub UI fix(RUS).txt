@@ -1671,7 +1671,7 @@ local function initialize()
     
     local survivortab = GUI:CreateTab("Выжившие", "key")
     
-    local blatanttab = GUI:CreateTab("рофл", "laugh")
+    local blatanttab = GUI:CreateTab("Мусор", "laugh")
     
     local misctab = GUI:CreateTab("Остальное", "meh")
     
